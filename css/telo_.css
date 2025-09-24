@@ -1,0 +1,235 @@
+* { margin: 0; padding: 0; }
+body
+{  
+    
+    font-family: 'ofont.ru_Myriad Pro';
+    background-color: #19072C;
+        
+}
+@font-face{
+
+    font-family: 'ofont.ru_Myriad Pro';
+    src: url('../fonts/ofont.ru_Myriad Pro.ttf') format('truetype');
+    
+    font-weight: normal;
+    font-style: normal;
+    
+    }
+
+@font-face{
+
+    font-family: 'ofont.ru_Myriad Pro r';
+    src: url('../fonts/ofont.ru_Myriad Pro r.ttf') format('truetype');
+    
+    font-weight: normal;
+    font-style: normal;
+    
+    }
+  
+
+
+
+
+
+.vac
+  {       
+         
+    background-color: #394551;
+   
+    font-size: 12.5pt;
+
+    text-align: center;
+    color: #fff;
+     padding: 9px 0;
+   
+  }
+
+
+
+.telo
+{ 
+  width: 900PX;
+background-color: #fff;
+margin-left:   auto ;
+margin-right:   auto ;
+border-radius: 40px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text {
+  padding: 20px 10%; 
+  color: #000;
+
+}
+.text p
+{
+  font-size:15pt;
+
+}
+
+
+
+
+
+
+.cent
+{text-align: center;
+margin: 20PX 0; 
+font-size: 15pt;
+}
+
+
+
+
+
+
+
+ input {
+border-bottom-style: solid;
+border-top-style: hidden;
+border-right-style:hidden;
+border-left-style: hidden;
+background: white;
+margin: 10px;
+margin-top: 30px;
+width: 100px;
+color: #6a5acd;
+padding: 10px;
+position: center;
+border-radius: 10px;
+
+font-size: 10pt;
+}
+
+
+label input {
+border-bottom-style: solid;
+border-top-style: hidden;
+border-right-style:hidden;
+border-left-style: hidden;
+background: white;
+margin: 10px;
+margin-top: 30px;
+width: 200px;
+color: #6a5acd;
+padding: 10px;
+position: center;
+border-radius: 10px;
+}
+
+
+
+
+
+
+ .button {
+
+  margin: 10px;
+width: 100px;
+margin: 100px;
+width: 20px;
+color: #6a5acd;
+padding: 10px;
+position: center;
+    background-color:  #20152c; 
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    margin: 15px 0;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 8pt;
+
+    cursor: pointer;
+
+    border-radius: 80px;
+}
+
+input:hover
+{background-color:  #C0C0C0; }
+
+.kn3:
+{background-color:  #FFF; }
+.kn3:hover
+{background-color:  #C0C0C0; }
+.kn3:active 
+{background-color:    #808080; }
+
+.vxod
+{background-color: #6a5acd;
+color:  #FFF;    }
+
+.vxod:hover
+{background-color:  #4b3aba; }
+.vxod:active 
+{background-color:  #3b2e94; }
+
+  
+.closs
+{background-color: #6a5acd;
+color:  #20152c;
+
+}
+
+
+
+.errorpass
+{
+  position: left;
+  color: red;
+  font-size: 12px;
+  
+  display: none;
+
+}
+
+
+
+@media (min-width: 0px) and (max-width: 1200px) {
+
+.vac
+{
+
+padding: 15px 0;
+}
+.telo
+{ margin: 0 0 15px 0px;
+
+  width: 100%;
+background-color: #fff;
+
+
+}
+
+  .vac1
+  {       
+           
+    
+     margin: 0px 0;
+   
+  }
+
+
+  .teloact
+{  
+ width: 100%;
+  }
+
+}
